@@ -1,6 +1,6 @@
 # Create a python function that when you input a number the function you have created checks whether the number belongs to the Fibonacci sequence or not
 
-def checkfibonacci(n):
+def check_fibonacci(n):
     # variables for generaating fibonacci sequenece
     a = 0
     b = 1
@@ -20,4 +20,4 @@ def checkfibonacci(n):
     return f'{n} does not belong to the Fibonacci Sequence'
 
 
-print(checkfibonacci(21))  # 21 belpngs to the Fibonacci Sequence
+print(check_fibonacci(21))  # 21 belpngs to the Fibonacci Sequence
